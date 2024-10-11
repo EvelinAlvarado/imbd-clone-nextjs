@@ -18,4 +18,12 @@
   .flexBetween {
     @apply flex items-center justify-between;
   }
+
+  .navBar-item {
+    @apply hover:text-amber-600 font-semibold;
+  }
+
+  .navBar-item-selected {
+    @apply underline underline-offset-8 decoration-4 decoration-amber-500 rounded-lg;
+  }
 }
